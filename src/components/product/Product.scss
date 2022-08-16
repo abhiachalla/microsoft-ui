@@ -92,3 +92,71 @@ padding-bottom: 0;
     border: none;
   }
 
+.textC {
+  width: 30%;
+  position: absolute;
+}
+
+.h1C {
+  color: #032d60;
+  font-weight: bolder;
+  font-size: 42px!important;
+  line-height: 60px!important;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cust360div {
+  position: absolute;
+  top: 2%;
+  right: 38%;
+
+}
+.cust360 {
+  color: #032d60;
+  font-weight: bolder;
+  font-size: 62px!important;
+  line-height: 60px!important;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.span360 {
+  color: #04AEC4
+}
+
+.salesImg {
+  scale: 0.5;
+}
+
+
+.button1{
+  border: none;
+  border-radius: 5%;
+  scale: 1.5;
+  position: absolute;
+  right: 10%;
+  top: 5%;
+  color: #fff;
+    background-color: #0b5cab;
+    text-transform: uppercase;
+    transition: background-color .3s ease;
+}
+.button1:hover{
+  background-color: #032d60
+}
+
+
+
+.button2{
+  border: none;
+  border-radius: 5%;
+  scale: 1.5;
+  position: absolute;
+  right: 3%;
+  top: 5%;
+  color: #fff;
+    background-color: #0b5cab;
+    text-transform: uppercase;
+    transition: background-color .3s ease;
+}
+.button2:hover{
+  background-color: #032d60
+}
