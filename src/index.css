@@ -1,0 +1,23 @@
+@media only screen and (max-width: 800px) {
+    .cust360div{
+        position: absolute;
+        display: block;
+        clear: both;
+        padding-top: 5rem;
+        padding-bottom: 10rem;
+        padding-left: 5rem;
+    }
+    .circle-container {
+        @include on-circle($item-count: 10, $circle-size: 15em, $item-size: 6em);
+    }
+
+
+
+  }
+
+
+  @media only screen and (max-width: 1200px) {
+    .button1 {
+        padding-right: 5rem;
+    }    
+  }

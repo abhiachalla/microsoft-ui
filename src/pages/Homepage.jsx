@@ -17,18 +17,9 @@ const Homepage = () => {
     
     
         const HandleClickUser1=()=> {
-        //    useEffect(()=>{
-        //         setUser(i);
-        //     },[])
         setUser(1);
         }
         const HandleClickUser2=()=> {
-
-        //     console.log(i)
-        //     console.log("user is ",user)
-        //    useEffect(()=>{
-        //         setUser(i);
-        //     },[])
         setUser(2);
         }
     
@@ -40,7 +31,7 @@ const Homepage = () => {
         <button className="button1" onClick={HandleClickUser1}>User 1</button>
         <button className="button2" onClick={HandleClickUser2}>User 2</button>
         <div className="cust360div"> <h1 className="cust360">Customer <span className="span360">360</span></h1></div>
-        <img className="salesImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1EZQG5mRHkybGTwLiVukdrCLDRP471Xq5czk4s3c2vw&s" alt="" />
+        <h1><img className="salesImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1EZQG5mRHkybGTwLiVukdrCLDRP471Xq5czk4s3c2vw&s" alt="" /></h1>
         {/* <div className="textC"><h1 className="h1C">Bringing Companies and Customers together!</h1></div> */}
         <ul className='circle-container'>
         <li className='listItem'><Product ID="1" className="product" imageSource="//www.salesforce.com/content/dam/web/en_us/www/images/products/sales-circle.png"  productName = "Sales"/></li>

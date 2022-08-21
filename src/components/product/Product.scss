@@ -64,6 +64,11 @@ padding-bottom: 0;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
+    color: #032d60;
+    font-weight: bolder;
+    font-size: 12px!important;
+    line-height: 20px!important;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
   .productName{
@@ -71,6 +76,11 @@ padding-bottom: 0;
     margin-top: 0;
     padding-top: 0;
     padding-left: 1.5rem;
+    color: #032d60;
+    font-weight: bolder;
+    font-size: 22px!important;
+    line-height: 20px!important;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
   .customer360image {
@@ -160,3 +170,21 @@ padding-bottom: 0;
 .button2:hover{
   background-color: #032d60
 }
+
+
+
+
+@media only screen and (max-width: 800px) {
+  .circle-container {
+      @include on-circle($item-count: 10, $circle-size: 30em, $item-size: 6em);
+  }
+  .customer360image {
+    scale: 0.75;
+  }
+
+
+
+}
+
+
+
