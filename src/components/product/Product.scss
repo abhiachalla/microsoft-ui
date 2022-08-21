@@ -176,10 +176,14 @@ padding-bottom: 0;
 
 @media only screen and (max-width: 800px) {
   .circle-container {
-      @include on-circle($item-count: 10, $circle-size: 30em, $item-size: 6em);
+      @include on-circle($item-count: 10, $circle-size: 25em, $item-size: 6em);
   }
   .customer360image {
+    scale: 0.5;
+  }
+  .productName {
     scale: 0.75;
+    line-height: 0px!important;
   }
 
 
