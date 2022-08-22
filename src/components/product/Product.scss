@@ -41,7 +41,7 @@ padding-bottom: 0;
 
 
 .circle-container {
-    @include on-circle($item-count: 10, $circle-size: 35em, $item-size: 6em); 
+    @include on-circle($item-count: 6, $circle-size: 35em, $item-size: 3em); 
     margin: 5em auto 0;
     // border: solid 5px tomato;
     
@@ -84,11 +84,11 @@ padding-bottom: 0;
   }
 
   .customer360image {
-    height: 350px;
+    height: 330px;
     position: absolute;
     margin-top: -130px;
     margin-left: -50px;
-    border-radius: 50%;
+    border-radius: 40%;
   }
 
 
