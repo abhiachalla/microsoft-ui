@@ -3,6 +3,7 @@ width: 120px;
 height: 120px;
 margin-bottom: 0;
 padding-bottom: 0;
+border-radius: 50%;
 } 
 
 
@@ -93,7 +94,7 @@ padding-bottom: 0;
 
 
   .listItem:hover {
-    scale: 1.2;
+    scale: 0.9;
     transition: 0.5s;
   }
 
@@ -123,7 +124,7 @@ padding-bottom: 0;
 .cust360div {
   position: absolute;
   top: 2%;
-  right: 38%;
+  right: 30%;
 
 }
 .cust360 {
@@ -134,11 +135,11 @@ padding-bottom: 0;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .span360 {
-  color: #8FBC8F
+  color: #FFA500
 }
 
 .salesImg {
-  scale: 1.25;
+  scale: 1;
   padding-left: 4rem;
 }
 
@@ -151,7 +152,7 @@ padding-bottom: 0;
   right: 10%;
   top: 5%;
   color: #fff;
-    background-color: #8FBC8F;
+    background-color: #FFA500;
     text-transform: uppercase;
     transition: background-color .3s ease;
 }
@@ -169,7 +170,7 @@ padding-bottom: 0;
   right: 3%;
   top: 5%;
   color: #fff;
-    background-color: #8FBC8F;
+    background-color: #FFA500;
     text-transform: uppercase;
     transition: background-color .3s ease;
 }
@@ -195,6 +196,7 @@ padding-bottom: 0;
 
 
 }
+
 
 
 
