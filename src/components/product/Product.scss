@@ -42,7 +42,7 @@ border-radius: 50%;
 
 
 .circle-container {
-    @include on-circle($item-count: 6, $circle-size: 38em, $item-size: 3em); 
+    @include on-circle($item-count: 8, $circle-size: 38em, $item-size: 3em); 
     margin: 5em auto 0;
     // border: solid 5px tomato;
     
@@ -135,7 +135,7 @@ border-radius: 50%;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .span360 {
-  color: #FFA500
+  color: rgb(159, 150, 150)
 }
 
 .salesImg {
@@ -152,7 +152,7 @@ border-radius: 50%;
   right: 10%;
   top: 5%;
   color: #fff;
-    background-color: #FFA500;
+    background-color: rgb(159, 150, 150);
     text-transform: uppercase;
     transition: background-color .3s ease;
 }
@@ -170,7 +170,7 @@ border-radius: 50%;
   right: 3%;
   top: 5%;
   color: #fff;
-    background-color: #FFA500;
+    background-color: rgb(159, 150, 150);
     text-transform: uppercase;
     transition: background-color .3s ease;
 }
@@ -200,3 +200,21 @@ border-radius: 50%;
 
 
 
+
+
+.Cu {
+  color: red;
+
+}
+.st {
+  color: rgb(138, 189, 62);
+  
+}
+.om {
+  color: rgb(0, 157, 255);
+  
+}
+.er {
+  color: rgb(242, 207, 13);
+  
+}
